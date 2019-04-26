@@ -240,3 +240,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-content .text-container-contact {
+    width: 100%;
+    padding: 70px 20px 20px 20px; 
+}
+
+.top-content .text-container-contact h1 {
+    font-size: 40px; 
+}
+
+.middle-content-contact {
+    width: 700px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+  
+input[type=submit] {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 7px 25px 7px 25px;
+    border: 2px black solid;
+    border-radius: 8px;
+}
