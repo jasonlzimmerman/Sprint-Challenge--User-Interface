@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    margin: 20px 0 40px 0;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +102,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container-about {
+    width: 100%;
+    padding: 0 20px 20px 20px; 
 }
 
 .middle-content {
@@ -101,15 +125,83 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+.middle-content-about {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.middle-content-about .office-box {
+    width: 46%;
+    height: 425px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about .office-box h2 {
+    margin: 10px 0 10px 0;
+}
+
+.middle-content-about .office-box button {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 7px 25px 7px 25px;
+    border: 2px black solid;
+    border-radius: 8px;
 }
 
 .bottom-content {
@@ -120,6 +212,10 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container-about {
+    padding: 0 4% 20px 0;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +239,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content .text-container-contact {
+    width: 100%;
+    padding: 70px 20px 20px 20px; 
+}
+
+.top-content .text-container-contact h1 {
+    font-size: 40px; 
+}
+
+.middle-content-contact {
+    width: 700px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+  
+input[type=submit] {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 7px 25px 7px 25px;
+    border: 2px black solid;
+    border-radius: 8px;
 }
