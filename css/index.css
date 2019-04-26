@@ -104,6 +104,11 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about {
+    width: 100%;
+    padding: 0 20px 20px 20px; 
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -171,6 +176,34 @@ header nav a {
     background: dodgerblue;
 }
 
+.middle-content-about {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.middle-content-about .office-box {
+    width: 46%;
+    height: 425px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about .office-box h2 {
+    margin: 10px 0 10px 0;
+}
+
+.middle-content-about .office-box button {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 7px 25px 7px 25px;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -179,6 +212,10 @@ header nav a {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container-about {
+    padding: 0 4% 20px 0;
 }
 
 .bottom-content .text-container:last-child {
